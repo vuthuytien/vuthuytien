@@ -7,7 +7,7 @@ body{
     -webkit-font-smoothing: antialiased;
     position: relative;
 }
-}
+
 
 .container {
     width: 863px;
@@ -26,10 +26,15 @@ body{
     height: 120px;
     margin-left: -34px;
 }
+#from_sign_in{
+    margin-left: 720px;
+    float: left;
+    padding: 22px;
+}
 
 #signIn {
     float: right;
-    margin-right: -170px;
+    margin-right: -95px;
     margin-top: 20px;
     padding: 7px;
     background-color: white;
@@ -54,7 +59,7 @@ body{
     background-color: #f5f0f5;
     border: 0px;
     padding: 50px 60px;
-    width: 41%;
-    margin-left: 404px;
+    width: 61%;
+    margin-left: 191px;
     margin-bottom: 60px;
 }
