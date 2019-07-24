@@ -1,3 +1,109 @@
+*{
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
 #header{
-	background-color: #504d4d;
+	background-image: url("../image/events.png");
+	height: 184px;
+	position: relative;
+}
+.header-bottom{
+	width: 50%;
+	background-color: #fff;
+	position: absolute;
+	margin-left: 23%;
+    bottom: 0%;
+
+}
+#cau_hoi{
+	background-color: rgb(173, 182, 168);
+	width: 100%;
+	text-align: center;
+	color: black;
+	padding: 1.6%;
+	float: left;
+}
+
+#main{
+	width: 100%;
+	background-color: #ede7f6;
+}
+#footer{
+	height: 100px;
+	background-color: #ede7f6;
+}
+.Q_text{
+	background-color: #fff;
+	width: 50%;
+	margin-left: 23%;
+}
+.khoi{
+	margin-left: 4%;
+	padding: 2%;
+    position: relative;
+}
+.khoi1{
+	position: initial;
+    margin-left: 6%;
+    margin-top: -3%;
+}
+.form-nhap{
+	-webkit-box-flex: 1;
+    box-flex: 1;
+    -webkit-flex-grow: 1;
+    flex-grow: 1;
+    -webkit-flex-shrink: 1;
+    flex-shrink: 1;
+    background-color: transparent;
+    border: none;
+    display: block;
+    font: 400 16px Roboto,RobotoDraft,Helvetica,Arial,sans-serif;
+    height: 24px;
+    min-height: 24px;
+    line-height: 24px;
+    margin: 0;
+    outline: none;
+    padding: 0;
+    resize: none;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    z-index: 0;
+    overflow-y: visible;
+    overflow-x: hidden;
+}
+.size-text1{
+	font-size: 34px;
+    line-height: 135%;
+    width: 100%;
+}
+.size-text2{
+	font-size: 13px;
+    line-height: 135%;
+    min-height: 20px;
+    width: 100%;
+}
+.size-text3{
+	font-size: 20px;
+    line-height: 135%;
+    min-height: 20px;
+    width: 100%;
+}
+.nhap_vb{
+	display: block;
+    width: 92%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+#gui{
+	margin-left: 40%;
 }

@@ -5,48 +5,97 @@
   	<meta charset="utf-8">
   	<link rel="stylesheet" type="text/css" href="css/servey.css">
     <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-    <script type="text/javascript" src="js/jquery.min.js"></script>
-    <script type="text/javascript" src = "js/popper.min.js"></script>
-    <script type="text/javascript" src = "js/bootstrap.min.js"></script>
   </head>
-
-  <body>  
-    <div id="header">
-      <nav class="navbar navbar-expand-sm navbar-dark" style="background-color: #090514; color: #ffffff;font-size: 5px;">
-          <div class="container-fluid">
-            <div class="row">
-                <div class="col-sm-3">
-                     <a class="navbar-brand" href="#">
-                      <img src="image/treeIconB.png" alt="" width="40" height="40" class="d-inline-block align-top">
-                      Preview & Test
-                  </a>
-                </div>
-                <div class="col-sm-6">
-                  
-                </div>
-                <div class="col-sm-3">
-                  <li class="nav-item">
-                      <li class="nav-item dropdown">
-                          <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">myAccount
-                          </a>
-                         <div class="dropdown-menu">
-                            <a class="dropdown-item" href="#">My Account</a>
-                            <a class="dropdown-item" href="#">Library</a>
-                            <a class="dropdown-item" href="#">Contacts</a>
-                            <a class="dropdown-item" href="#">Setting</a>
-                            <a class="dropdown-item" href="#">Sign Out</a>
-                        </div>
-                      </li>
-                  </li>
-                </div>
-            </div>
-          </div>
-        </nav>
+<body>  
+  <div id="header">
+      <nav class="navbar navbar-expand-lg navbar-light ">
+              <img src="../images/logon2kt.png" style="height: 67px;"/>
+      </nav>
+      <div class="header-bottom">
+          <div id="cau_hoi">CÂU HỎI</div>
+      </div>
+  </div>   
+  <div id="main">
+    <div class="Q_text">
+      <div class="khoi">
+        <textarea class="form-nhap size-text1"  style="height: 51px;">Trả lời sự kiện</textarea>
+      </div>
+      <div class="khoi">
+        <textarea class="form-nhap size-text2" style="height: 51px;">Địa chỉ diễn ra sự kiện: Số đường, Tên đường phố, Quận/Huyện, Tỉnh/Thành phố </textarea>
+      </div>
     </div>
+    <div class="Q_text">
+        <div class="khoi">
+            <textarea class="form-nhap size-text3" style="height: 51px;">Bạn có thể tham dự không?</textarea>
+        </div>
+      <div class="khoi1">
+          <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios1" value="option1" checked>
+              <label class="form-check-label" for="exampleRadios1">
+                Có
+              </label>
+            </div>
+            <div class="form-check">
+              <input class="form-check-input" type="radio" name="exampleRadios" id="exampleRadios2" value="option2">
+              <label class="form-check-label" for="exampleRadios2">
+               Không
+              </label>
+            </div>
+      </div>
+    </div>
+    <div class="Q_text">
+      <div class="khoi">
+        <textarea class="form-nhap size-text3" style="height: 51px;">Tên người bạn sẽ đi cùng bạn là gì?</textarea>
+      </div>
+      <div class="khoi1">
+        <form>
+            <input class="nhap_vb" type="text" placeholder="Nhập văn bản">
+        </form>
+      </div>
+    </div>
+    <div class="Q_text">
+        <div class="khoi">
+            <textarea class="form-nhap size-text3" style="height: 51px;">Bạn biết đến sự kiện qua kênh thông tin nào?</textarea>
+        </div>
+        <div class="khoi1">
+          <div>
+              <input  type="radio" name="ban_be" id="ban_be" value="option1">
+              <label  for="ban_be">
+                Bạn bè
+              </label>
+            </div>
+            <div>
+                <input  type="radio" name="mang_xh" id="mang_xh" value="option2">
+                <label  for="mang_xh">
+                  Mạng xã hội
+                </label>
+              </div>
+            <div>
+                  <input  type="radio" name="website" id="website" value="option3">
+                  <label  for="website">
+                  Website
+                  </label>
+              </div>
+        </div>
+    </div>
+    <div class="Q_text">
+        <div class="khoi">
+            <textarea class="form-nhap size-text3" style="height: 51px;">Nhận xét</textarea>
+        </div>
+        <div class="khoi1">
+            <form>
+                <input class="nhap_vb" type="text" placeholder="Nhận xét">
+            </form>
+        </div>
+    </div>
+    <div class="Q_text">
+      <div class="khoi">
+          <input class="btn btn-primary" type="submit" value="Submit" id="gui">
+      </div>
+    </div>
+  </div>
+  <div id="footer">
 
-  </li>
-</ul>
-</nav>
-</div>
+  </div>
 </body>
 </html>
